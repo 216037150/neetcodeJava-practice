@@ -2,11 +2,6 @@ import java.util.Scanner;
 
 public class UserInput{
     public static void main(String[] args) {
-        int a = 436;
-        byte b = 45;
-        b = (byte)a;
-        System.out.println(b);
-
         String name;
         String surname;
 
@@ -20,7 +15,6 @@ public class UserInput{
         System.out.print("Please enter your surname: " );
         surname = input.nextLine();
         System.out.println("Greetings Mr. " + surname);
-
 
     }
 }
