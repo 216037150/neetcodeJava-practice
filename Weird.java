@@ -12,11 +12,10 @@ If N is even and greater than 20, print Not Weird
     */
 
     public static void main(String[] args){
-        int N;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the value of n: ");
-        N = scanner.nextInt();
+        int N = scanner.nextInt();
         scanner.close();
 
         if(N%2 == 1){
