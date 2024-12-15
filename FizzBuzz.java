@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
 /*
- * "FizzBuzz" if i is divisible by 3 and 5.
- "Fizz" if i is divisible by 3.
- "Buzz" if i is divisible by 5.
- i (as a string) if none of the above conditions are true.
+ Return:
+    "FizzBuzz" if i is divisible by 3 and 5.
+    "Fizz" if i is divisible by 3.
+    "Buzz" if i is divisible by 5.
+    i (as a string) if none of the above conditions are true.
  */
 public class FizzBuzz {
     public static void main(String[] args) {
