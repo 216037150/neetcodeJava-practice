@@ -4,3 +4,4 @@
 ## 3. Multiplication Table
 ## 4. FizzBuzz exercise
 ## 5. Weird Exercise
+## 6. Area of rectangle
