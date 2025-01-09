@@ -23,4 +23,10 @@ public class Casting {
         b = (byte) a;
         System.out.println(b);
     }
+
+    public static class Marks {
+        public  double avarage(double test1, double test2, double test3){
+            return ((test1 + test2 + test3)/300)*100;
+        }
+    }
 }
