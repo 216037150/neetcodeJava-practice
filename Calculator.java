@@ -29,13 +29,13 @@ public class Calculator {
 
         if(result < 50.0 ) {
             System.out.println("You got F: "+ result + "%");
-            System.out.println("YOU FAILLED");
+            System.out.println("FAILLED");
         } else if(result >= 50.0 && result<60.0){
             System.out.println("You got C: "+ result + "%");
-            System.out.println("YOU PASSED");
+            System.out.println("PASSED");
         }else if(result >=60.0 && result <79.0){
             System.out.println("You got B: "+ result + "%");
-            System.out.println("YOU PASSED");
+            System.out.println("PASSED");
         }else {
             System.out.println("Congrats, You got A: "+ result+ "%");
             System.out.println("YOU PASSED");
